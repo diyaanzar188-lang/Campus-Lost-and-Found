@@ -48,18 +48,21 @@ def login():
 # ---------- DASHBOARD ----------
 @app.route("/dashboard")
 def dashboard():
-    if "user" not in session:
-        return redirect("/login")
-
     with get_db() as db:
-        items = db.execute("SELECT * FROM items").fetchall()
-        lost_items = db.execute("SELECT * FROM items WHERE status='Lost'").fetchall()
-        found_items = db.execute("SELECT * FROM items WHERE status='Found'").fetchall()
-        recovered_items = db.execute("SELECT * FROM items WHERE status='Recovered'").fetchall()
+        lost_items = db.execute(
+            "SELECT id, name, description, contact, status FROM items WHERE status='Lost'"
+        ).fetchall()
+
+        found_items = db.execute(
+            "SELECT id, name, description, contact, status FROM items WHERE status='Found'"
+        ).fetchall()
+
+        recovered_items = db.execute(
+            "SELECT id, name, description, contact, status FROM items WHERE status='Recovered'"
+        ).fetchall()
 
     return render_template(
         "index.html",
-        items=items,
         lost_items=lost_items,
         found_items=found_items,
         recovered_items=recovered_items
