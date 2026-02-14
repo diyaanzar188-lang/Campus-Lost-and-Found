@@ -83,6 +83,15 @@ def add_item():
         )
 
     return redirect("/dashboard")
+# ---------- MARK FOUND ----------
+@app.route("/mark_found/<int:item_id>", methods=["POST"])
+def mark_found(item_id):
+    with get_db() as db:
+        db.execute(
+            "UPDATE items SET status='Found' WHERE id=?",
+            (item_id,)
+        )
+    return redirect("/dashboard")
 
 # ---------- RECOVER ----------
 @app.route("/recover/<int:item_id>")

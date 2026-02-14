@@ -93,9 +93,9 @@
                     <td>{{ item[2] }}</td>
                     <td>{{ item[3] }}</td>
                     <td>
-                        <a href="/mark_found/{{ item[0] }}" class="btn btn-warning btn-sm">
-                            Mark Found
-                        </a>
+                       <form action="/mark_found/{{ item[0] }}" method="POST" style="display:inline;">
+    <button type="submit" class="btn btn-warning">Mark Found</button>
+</form>
                     </td>
                 </tr>
             {% else %}
