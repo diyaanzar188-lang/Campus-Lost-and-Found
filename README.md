@@ -90,150 +90,12 @@ List the key features of your project:
 
 #### Diagrams
 
-**System Architecture:**
 
-![Architecture Diagram](docs/architecture.png)
-* The system follows a simple client–server architecture.  
-Users interact with the frontend built using HTML, CSS, and Bootstrap.  
-Requests are handled by a Flask backend, which processes login, item posting, and status updates.  
-All data is stored and retrieved from an SQLite database.*
+**Base URL:** https://campus-lost-and-found-5.onrender.com
 
-**Application Workflow:**
-
-![Workflow](docs/workflow.png)
-*1. Student logs in using their register number and password  
-2. Dashboard loads with lost items list  
-3. User can add lost or found items  
-4. Items can be marked as found or recovered  
-5. Database updates reflect in real time on the dashboard*
-
----
-
-### For Hardware:
-
-#### Schematic & Circuit
-
-not applicable
-
-#### Build Photos
-
-not applicable
----
-
-## Additional Documentation
-
-### For Web Projects with Backend:
-
-#### API Documentation
-
-**Base URL:** `https://api.yourproject.com`
-
-##### Endpoints
-
-**GET /api/endpoint**
-- **Description:** [What it does]
-- **Parameters:**
-  - `param1` (string): [Description]
-  - `param2` (integer): [Description]
-- **Response:**
-```json
-{
-  "status": "success",
-  "data": {}
-}
-```
-
-**POST /api/endpoint**
-- **Description:** [What it does]
-- **Request Body:**
-```json
-{
-  "field1": "value1",
-  "field2": "value2"
-}
-```
-- **Response:**
-```json
-{
-  "status": "success",
-  "message": "Operation completed"
-}
-```
-
-[Add more endpoints as needed...]
-
----
-
-### For Mobile Apps:
-
-#### App Flow Diagram
-
-not applicable
-
-#### Installation Guide
-
-**For Android (APK):**
-not applicable
-
-**For iOS (IPA) - TestFlight:**
-not applicable
-
-**Building from Source:**
-```bash
-# For Android
-not applicable
-# or
-./gradlew assembleDebug
-
-# For iOS
-not applicable
-# or
-xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
-```
-
----
-
-### For Hardware Projects:
-
-#### Bill of Materials (BOM)
-
-not applicable
-
-**Total Estimated Cost:** ₹[Amount]
 
 #### Assembly Instructions
 
-**Step 1: Prepare Components**
-1. Gather all components listed in the BOM
-2. Check component specifications
-3. Prepare your workspace
-![Step 1](images/assembly-step1.jpg)
-*Caption: All components laid out*
-
-**Step 2: Build the Power Supply**
-1. Connect the power rails on the breadboard
-2. Connect Arduino 5V to breadboard positive rail
-3. Connect Arduino GND to breadboard negative rail
-![Step 2](images/assembly-step2.jpg)
-*Caption: Power connections completed*
-
-**Step 3: Add Components**
-1. Place LEDs on breadboard
-2. Connect resistors in series with LEDs
-3. Connect LED cathodes to GND
-4. Connect LED anodes to Arduino digital pins (2-6)
-![Step 3](images/assembly-step3.jpg)
-*Caption: LED circuit assembled*
-
-**Step 4: [Continue for all steps...]**
-
-**Final Assembly:**
-![Final Build](images/final-build.jpg)
-*Caption: Completed project ready for testing*
-
----
-
-### For Scripts/CLI Tools:
 
 #### Command Reference
 
@@ -244,8 +106,6 @@ not applicable
    pip install flask
 ## Run Instructions
 python app.py
-
-## Application Demo
 
 ### Login Page
 Users can log in using their college register number and password to access the system securely.
@@ -271,40 +131,7 @@ After successful login, users are redirected to the dashboard where they can:
 
 ### Video
 https://github.com/user-attachments/assets/6f601df4-1af9-465c-b77b-6338300246cc
-*Explain what the video demonstrates - key features, user flow, technical highlights*
-
-### Additional Demos
-[Add any extra demo materials/links - Live site, APK download, online demo, etc.]
-
----
-
-## AI Tools Used (Optional - For Transparency Bonus)
-
-If you used AI tools during development, document them here for transparency:
-
-**Tool Used:** [e.g., GitHub Copilot, v0.dev, Cursor, ChatGPT, Claude]
-
-**Purpose:** [What you used it for]
-- Example: "Generated boilerplate React components"
-- Example: "Debugging assistance for async functions"
-- Example: "Code review and optimization suggestions"
-
-**Key Prompts Used:**
-- "Create a REST API endpoint for user authentication"
-- "Debug this async function that's causing race conditions"
-- "Optimize this database query for better performance"
-
-**Percentage of AI-generated code:** [Approximately X%]
-
-**Human Contributions:**
-- Architecture design and planning
-- Custom business logic implementation
-- Integration and testing
-- UI/UX design decisions
-
-*Note: Proper documentation of AI usage demonstrates transparency and earns bonus points in evaluation!*
-
----
+*Campus Lost & Found is a web-based application designed to help students report, track, and recover lost items within the campus. Users can log in using their register number, add lost or found items with details, and update item status once recovered, making the recovery process simple and organized.*
 
 ## Team Contributions
 
@@ -314,15 +141,5 @@ If you used AI tools during development, document them here for transparency:
 
 ---
 
-## License
-
-This project is licensed under the [LICENSE_NAME] License - see the [LICENSE](LICENSE) file for details.
-
-**Common License Options:**
-- MIT License (Permissive, widely used)
-- Apache 2.0 (Permissive with patent grant)
-- GPL v3 (Copyleft, requires derivative works to be open source)
-
----
 
 Made with ❤️ at TinkerHub
