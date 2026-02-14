@@ -2,43 +2,37 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Campus-Lost-And-Found] 🎯
+# Campus-Lost-And-Found 🎯
 
 ## Basic Details
 
-### Team Name: [SHEcodes]
+### Team Name: SHEcodes
 
 ### Team Members
-- Member 1: [Diya Anzar] - [Lbs institute of technology for women]
-- Member 2: [Shafna S Rawther] - [Lbs institute of technology for women]
+- Member 1: Diya Anzar - Lbs institute of technology for women
+- Member 2: Shafna S Rawther - Lbs institute of technology for women
 
 ### Hosted Project Link
-[]
+https://campus-lost-and-found-5.onrender.com
 ### Project Description
-[Campus Lost & Found is a web-based platform designed to help students easily report, find, and recover lost items within the college campus. Students can post details of items they have lost or found, along with contact information, making it easier to reconnect items with their rightful owners. The platform organizes items into Lost, Found, and Recovered categories, ensuring clarity and reducing confusion in the recovery process.]
+Campus Lost & Found is a web-based platform designed to help students easily report, find, and recover lost items within the college campus. Students can post details of items they have lost or found, along with contact information, making it easier to reconnect items with their rightful owners. The platform organizes items into Lost, Found, and Recovered categories, ensuring clarity and reducing confusion in the recovery process.
 
 ### The Problem statement
-[In a college campus, students frequently misplace personal belongings such as ID cards, books, bottles, and electronic accessories. Currently, there is no centralized and reliable system to report or track these lost items. Information is usually shared through word of mouth or informal social media messages, which often leads to confusion, delayed recovery, or items remaining unclaimed. This lack of an organized system makes the process of finding lost items inefficient and stressful for students.]
+In a college campus, students frequently misplace personal belongings such as ID cards, books, bottles, and electronic accessories. Currently, there is no centralized and reliable system to report or track these lost items. Information is usually shared through word of mouth or informal social media messages, which often leads to confusion, delayed recovery, or items remaining unclaimed. This lack of an organized system makes the process of finding lost items inefficient and stressful for students.
 
 ### The Solution
-[The Campus Lost & Found system provides a centralized web-based platform where students can easily report lost and found items within the college campus. Users can add item details such as name, description, and contact information, allowing others to quickly identify and respond to relevant posts. The system categorizes items into Lost, Found, and Recovered sections, ensuring clear tracking of each item’s status. This structured approach reduces confusion, improves communication between students, and makes the recovery process faster and more efficient.]
+The Campus Lost & Found system provides a centralized web-based platform where students can easily report lost and found items within the college campus. Users can add item details such as name, description, and contact information, allowing others to quickly identify and respond to relevant posts. The system categorizes items into Lost, Found, and Recovered sections, ensuring clear tracking of each item’s status. This structured approach reduces confusion, improves communication between students, and makes the recovery process faster and more efficient.
 
 ---
 
 ## Technical Details
 
 ### Technologies/Components Used
+- Languages used: Python, HTML, CSS
+- Frameworks used: Flask, Bootstrap
+- Libraries used: SQLite3
+- Tools used: VS Code, Git, GitHub
 
-**For Software:**
-- Languages used: [Python, HTML, CSS]
-- Frameworks used: [Flask, Bootstrap]
-- Libraries used: [SQLite3]
-- Tools used: [VS Code, Git, GitHub]
-
-**For Hardware:**
--- Not applicable (This is a software-based web application)
-
----
 
 ## Features
 
