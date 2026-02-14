@@ -2,27 +2,26 @@
   <img src="./img.png" alt="Project Banner" width="100%">
 </p>
 
-# [Project Name] 🎯
+# [Campus-Lost-And-Found] 🎯
 
 ## Basic Details
 
-### Team Name: [Name]
+### Team Name: [SHEcodes]
 
 ### Team Members
-- Member 1: [Name] - [College]
-- Member 2: [Name] - [College]
+- Member 1: [Diya Anzar] - [Lbs institute of technology for women]
+- Member 2: [Shafna S Rawther] - [Lbs institute of technology for women]
 
 ### Hosted Project Link
-[mention your project hosted link here]
-
+[]
 ### Project Description
-[2-3 lines about what your project does]
+[Campus Lost & Found is a web-based platform designed to help students easily report, find, and recover lost items within the college campus. Students can post details of items they have lost or found, along with contact information, making it easier to reconnect items with their rightful owners. The platform organizes items into Lost, Found, and Recovered categories, ensuring clarity and reducing confusion in the recovery process.]
 
 ### The Problem statement
-[What problem are you solving?]
+[In a college campus, students frequently misplace personal belongings such as ID cards, books, bottles, and electronic accessories. Currently, there is no centralized and reliable system to report or track these lost items. Information is usually shared through word of mouth or informal social media messages, which often leads to confusion, delayed recovery, or items remaining unclaimed. This lack of an organized system makes the process of finding lost items inefficient and stressful for students.]
 
 ### The Solution
-[How are you solving it?]
+[The Campus Lost & Found system provides a centralized web-based platform where students can easily report lost and found items within the college campus. Users can add item details such as name, description, and contact information, allowing others to quickly identify and respond to relevant posts. The system categorizes items into Lost, Found, and Recovered sections, ensuring clear tracking of each item’s status. This structured approach reduces confusion, improves communication between students, and makes the recovery process faster and more efficient.]
 
 ---
 
@@ -31,25 +30,27 @@
 ### Technologies/Components Used
 
 **For Software:**
-- Languages used: [e.g., JavaScript, Python, Java]
-- Frameworks used: [e.g., React, Django, Spring Boot]
-- Libraries used: [e.g., axios, pandas, JUnit]
-- Tools used: [e.g., VS Code, Git, Docker]
+- Languages used: [Python, HTML, CSS]
+- Frameworks used: [Flask, Bootstrap]
+- Libraries used: [SQLite3]
+- Tools used: [VS Code, Git, GitHub]
 
 **For Hardware:**
-- Main components: [List main components]
-- Specifications: [Technical specifications]
-- Tools required: [List tools needed]
+-- Not applicable (This is a software-based web application)
 
 ---
 
 ## Features
 
 List the key features of your project:
-- Feature 1: [Description]
-- Feature 2: [Description]
-- Feature 3: [Description]
-- Feature 4: [Description]
+- Feature 1: [Student login system using college register number and password format]
+- Feature 2: [- Option to report lost items with item name, description, and contact details]]
+- Feature 3: [Ability to post found items separately when the owner is unknown]
+- Feature 4: [Automatic categorization of items into Lost, Found, and Recovered sections]
+- Feature 5: [Status update functionality to move items from Lost → Found → Recovered]
+- Feature 6: [Clean dashboard displaying all items with clear status labels]
+- Feature 7: [Secure logout functionality for student accounts]
+
 
 ---
 
@@ -59,21 +60,20 @@ List the key features of your project:
 
 #### Installation
 ```bash
-[Installation commands - e.g., npm install, pip install -r requirements.txt]
+[pip install flask]
 ```
 
 #### Run
 ```bash
-[Run commands - e.g., npm start, python app.py]
+[python app.py]
 ```
 
 ### For Hardware:
 
 #### Components Required
-[List all components needed with specifications]
-
+[not applicable]
 #### Circuit Setup
-[Explain how to set up the circuit]
+[This project is a software-based web application and does not involve any electronic circuits or hardware connections.]
 
 ---
 
@@ -83,26 +83,35 @@ List the key features of your project:
 
 #### Screenshots (Add at least 3)
 
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+<img width="1900" height="1036" alt="login" src="https://github.com/user-attachments/assets/4624b6fb-713d-40b4-a839-9f0778f8909a" />
+*The Student Login page allows registered students to securely access the Campus Lost & Found system using their register number and password. After successful login, users are redirected to the dashboard to view and manage lost, found, and recovered items.*
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+<img width="1914" height="1077" alt="dashboard" src="https://github.com/user-attachments/assets/131eb881-9b01-46ff-bac5-813a4651bdc4" />
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+*The dashboard displays the Campus Lost & Found system where users can add new items and view all reported lost items in a structured table. It allows users to mark items as found, view contact details, and manage item status efficiently after login.*
+
+
+<img width="1895" height="1058" alt="recovereditems" src="https://github.com/user-attachments/assets/9092d656-c004-40f0-a99b-8be3a7776bfe" />
+*Displays all items that have been successfully returned to their owners, along with item details and contact information, confirming completion of the recovery process.*
 
 #### Diagrams
 
 **System Architecture:**
 
 ![Architecture Diagram](docs/architecture.png)
-*Explain your system architecture - components, data flow, tech stack interaction*
+* The system follows a simple client–server architecture.  
+Users interact with the frontend built using HTML, CSS, and Bootstrap.  
+Requests are handled by a Flask backend, which processes login, item posting, and status updates.  
+All data is stored and retrieved from an SQLite database.*
 
 **Application Workflow:**
 
 ![Workflow](docs/workflow.png)
-*Add caption explaining your workflow*
+*1. Student logs in using their register number and password  
+2. Dashboard loads with lost items list  
+3. User can add lost or found items  
+4. Items can be marked as found or recovered  
+5. Database updates reflect in real time on the dashboard*
 
 ---
 
@@ -110,25 +119,11 @@ List the key features of your project:
 
 #### Schematic & Circuit
 
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+not applicable
 
 #### Build Photos
 
-![Team](Add photo of your team here)
-
-![Components](Add photo of your components here)
-*List out all components shown*
-
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
-
+not applicable
 ---
 
 ## Additional Documentation
@@ -179,36 +174,25 @@ List the key features of your project:
 
 #### App Flow Diagram
 
-![App Flow](docs/app-flow.png)
-*Explain the user flow through your application*
+not applicable
 
 #### Installation Guide
 
 **For Android (APK):**
-1. Download the APK from [Release Link]
-2. Enable "Install from Unknown Sources" in your device settings:
-   - Go to Settings > Security
-   - Enable "Unknown Sources"
-3. Open the downloaded APK file
-4. Follow the installation prompts
-5. Open the app and enjoy!
+not applicable
 
 **For iOS (IPA) - TestFlight:**
-1. Download TestFlight from the App Store
-2. Open this TestFlight link: [Your TestFlight Link]
-3. Click "Install" or "Accept"
-4. Wait for the app to install
-5. Open the app from your home screen
+not applicable
 
 **Building from Source:**
 ```bash
 # For Android
-flutter build apk
+not applicable
 # or
 ./gradlew assembleDebug
 
 # For iOS
-flutter build ios
+not applicable
 # or
 xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 ```
@@ -219,14 +203,7 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 
 #### Bill of Materials (BOM)
 
-| Component | Quantity | Specifications | Price | Link/Source |
-|-----------|----------|----------------|-------|-------------|
-| Arduino Uno | 1 | ATmega328P, 16MHz | ₹450 | [Link] |
-| LED | 5 | Red, 5mm, 20mA | ₹5 each | [Link] |
-| Resistor | 5 | 220Ω, 1/4W | ₹1 each | [Link] |
-| Breadboard | 1 | 830 points | ₹100 | [Link] |
-| Jumper Wires | 20 | Male-to-Male | ₹50 | [Link] |
-| [Add more...] | | | | |
+not applicable
 
 **Total Estimated Cost:** ₹[Amount]
 
@@ -267,102 +244,39 @@ xcodebuild -workspace App.xcworkspace -scheme App -configuration Debug
 #### Command Reference
 
 **Basic Usage:**
-```bash
-python script.py [options] [arguments]
-```
+1. Ensure Python is installed on your system.
+2. Install required dependencies:
+   ```bash
+   pip install flask
+## Run Instructions
+python app.py
 
-**Available Commands:**
-- `command1 [args]` - Description of what command1 does
-- `command2 [args]` - Description of what command2 does
-- `command3 [args]` - Description of what command3 does
+## Application Demo
 
-**Options:**
-- `-h, --help` - Show help message and exit
-- `-v, --verbose` - Enable verbose output
-- `-o, --output FILE` - Specify output file path
-- `-c, --config FILE` - Specify configuration file
-- `--version` - Show version information
+### Login Page
+Users can log in using their college register number and password to access the system securely.
 
-**Examples:**
-
-```bash
-# Example 1: Basic usage
-python script.py input.txt
-
-# Example 2: With verbose output
-python script.py -v input.txt
-
-# Example 3: Specify output file
-python script.py -o output.txt input.txt
-
-# Example 4: Using configuration
-python script.py -c config.json --verbose input.txt
-```
-
-#### Demo Output
-
-**Example 1: Basic Processing**
-
-**Input:**
-```
-This is a sample input file
-with multiple lines of text
-for demonstration purposes
-```
-
-**Command:**
-```bash
-python script.py sample.txt
-```
-
+### Dashboard
+After login, users can:
+- Add lost items with description and contact details
+- View all reported lost items
+- Mark items as recovered
+- View recovered items separately
 **Output:**
-```
-Processing: sample.txt
-Lines processed: 3
-Characters counted: 86
-Status: Success
-Output saved to: output.txt
-```
+  
+After successful login, users are redirected to the dashboard where they can:
+- Add lost or found items with description and contact details
+- View items categorized as Lost, Found, and Recovered
+- Mark items as recovered once returned to the owner
+- Log out securely from the system
 
-**Example 2: Advanced Usage**
+##
 
-**Input:**
-```json
-{
-  "name": "test",
-  "value": 123
-}
-```
 
-**Command:**
-```bash
-python script.py -v --format json data.json
-```
-
-**Output:**
-```
-[VERBOSE] Loading configuration...
-[VERBOSE] Parsing JSON input...
-[VERBOSE] Processing data...
-{
-  "status": "success",
-  "processed": true,
-  "result": {
-    "name": "test",
-    "value": 123,
-    "timestamp": "2024-02-07T10:30:00"
-  }
-}
-[VERBOSE] Operation completed in 0.23s
-```
-
----
-
-## Project Demo
+ Project Demo
 
 ### Video
-[Add your demo video link here - YouTube, Google Drive, etc.]
-
+https://github.com/user-attachments/assets/6f601df4-1af9-465c-b77b-6338300246cc
 *Explain what the video demonstrates - key features, user flow, technical highlights*
 
 ### Additional Demos
@@ -400,9 +314,9 @@ If you used AI tools during development, document them here for transparency:
 
 ## Team Contributions
 
-- [Name 1]: [Specific contributions - e.g., Frontend development, API integration, etc.]
-- [Name 2]: [Specific contributions - e.g., Backend development, Database design, etc.]
-- [Name 3]: [Specific contributions - e.g., UI/UX design, Testing, Documentation, etc.]
+- [ Diya Anzar]: [Backend development using Flask, database design with SQLite, login authentication logic, item status management (lost/found/recovered), and overall project integration.]
+- [Shafna S Rawther]: [Frontend design using HTML, CSS, and Bootstrap, UI/UX layout for login and dashboard pages, form validation support, and documentation assistance.]
+
 
 ---
 
